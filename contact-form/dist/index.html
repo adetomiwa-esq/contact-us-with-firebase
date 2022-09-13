@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Form</title>
+    <script src="https://kit.fontawesome.com/c7c7509e2c.js" crossorigin="anonymous"></script>
+    <script defer src="bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="brand">
+            Akinola & Co.
+        </h1>
+        <div class="wrapper">
+            <div class="company-info">
+                <h3>Akinola & Co</h3>
+                <ul>
+                    <li><i class="fas fa-road"></i> 44 off Wall-Sreet, Agidingbi close.</li>
+                    <li class="fas fa-phone"><i></i> (+234) 8148334847</li>
+                    <li><i class="fas fa-envelope"></i> akinolaadetomiwa88@gmail.com</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Email Us</h3>
+                <form class="contact-form">
+                    <p>
+                        <label>Name</label>
+                        <input type="text" name="name">
+                        <span class="warning">name should contain only letters and at least 3 characters</span>
+                    </p>
+
+                    <p>
+                        <label>Company</label>
+                        <input type="text" name="company">
+                        <span class="warning">company name should contain only letters and at least 3 characters</span>
+                    </p>
+
+                    <p>
+                        <label>Email Address</label>
+                        <input type="email" name="email">
+                    </p>
+
+                    <p>
+                        <label>Phone Number</label>
+                        <input type="text" name="phone">
+                        <span class="warning">invalid phone number</span>
+                    </p>
+
+                    <p class="full">
+                        <label>Message</label>
+                        <textarea name="message" rows="5"></textarea>
+                        <span class="warning">message should contain at least 80 characters and not more than 400 characters</span>
+                    </p>
+
+                    <p class="full">
+                        <button>Submit</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
